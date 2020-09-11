@@ -1,0 +1,125 @@
+.textbox {
+    float: right;
+    border: 1px solid solid black;
+}
+
+ul li {
+    float:left;
+    width:100px;
+    text-transform:capitalize;
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+b{
+    color:wheat;
+    border-bottom:2px solid wheat;
+    font-weight: normal;
+}
+
+body{
+    background:url(./img2/mountains-minimalists-4k-vx.jpg) no-repeat;
+    background-size: cover;
+}
+
+.cover {
+    border:1px solid black;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 10%;
+    top:20%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 7px;
+    opacity: 0.6;
+}
+
+.subcover{
+    border-bottom:1px solid none;
+    background: black;
+    width: 300px;
+    height: 450px;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+.cover-image{
+    text-align: center;
+}
+
+img {
+    width:93%;
+    border-radius: 20px;
+    position: absolute;
+    left:17px;
+    top: 10%;
+    margin: -10px -9px;
+    opacity:0.7;
+}
+
+.text {
+    position: absolute;
+    left: 31%;
+    top:63%;
+    margin: -1px 10px;
+}
+
+h1 {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 7px;
+    font-weight: normal;
+}
+
+h2 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size:14px;
+    opacity:0.3;
+    margin-top: -6px;
+}
+
+.player-image img{
+    width:101%;
+    height:127px;
+    position: absolute;
+    left:8px;
+    top: 74%;
+    margin: -10px -9px;
+    opacity:0.9;
+    border-radius: none;
+}
+
+.context{
+    
+    position: absolute;
+    left:40%;
+    top:20%;
+}
+
+.context b {
+    border-bottom: none;
+}
+
+h5 {
+    font-size: 50px;
+    color:white;
+}
+
+.quote {
+    font-size: 25px;
+    position:absolute;
+    left: 28%;
+    top: 58%;
+}
